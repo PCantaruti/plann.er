@@ -3,8 +3,9 @@ import { useState } from "react"
 import { CreateActivityModal } from "./create-activity-modal"
 import { ImportantLinks } from "./important-links"
 import { Guests } from "./guests"
-import { Actividys } from "./activitys"
 import { DestinationAndDateHeader } from "./destination-and-date-header"
+import { Activities } from "./activities"
+
 
 export function TripDetailsPage() {
     const [isCreateActivityModalOpen, setIsCreateActivityModalOpen] = useState(false)
@@ -30,9 +31,10 @@ export function TripDetailsPage() {
                             <Plus className="size-5 text-lime-950" />
                             Cadastrar atividade
                         </button>
+
                     </div>
 
-                    <Actividys />
+                    <Activities />
 
                 </div>
 
