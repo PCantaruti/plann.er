@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+<img src="public/logo.svg"/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+----Em desenvolvimento----
 
-Currently, two official plugins are available:
+##
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>O plann.er é um aplicativo de gerenciamento de viagens onde é possível cadastrar o destino, a quantidade de dias da viagem e planejar suas atividades. ✈️🌍</p><br/>
 
-## Expanding the ESLint configuration
+<h2>Funcionalidades:</h2><br/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p>🗺️ Cadastro de destinos: Adicione e organize seus próximos destinos de viagem.</p><br/>
+<p>📅 Planejamento de atividades: Crie um cronograma detalhado com atividades para cada dia da viagem.</p><br/>
+<p>📊 Visualização de itinerário: Veja um resumo visual do seu itinerário diário.</p><br/>
+<p>👫 Adicionar convidados: Inclua amigos e familiares na sua viagem e compartilhe o planejamento com eles.</p><br/>
+<p>🔗 Links úteis: Adicione links úteis para sites de reservas, mapas, guias de viagem e muito mais.</p><br/>
 
-- Configure the top-level `parserOptions` property like this:
+<h2>Tecnologias Utilizadas</h2><br/>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<p>⚛️ ReactJS</p><br/>
+<p>📘 TypeScript</p><br/>
+<p>⚡ Vite</p><br/>
+<p>🎨 TailwindCSS</p><br/>
+<p>🟢 NodeJS</p><br/>
+<p>📅 DayPicker</p>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+##
+
+Projeto desenvolvido no evento NLW Journey realizado pela empresa Rocketseat.
